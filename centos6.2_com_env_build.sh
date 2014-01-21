@@ -22,5 +22,4 @@ yum -y install autoconf automake make libtool.x86_64 patch.x86_64 pkgconfig.x86_
 # based libs
 yum -y install openssl-devel alsa-lib-devel bzip2-devel
 
-tar zxf tools/yasm-1.2.0.tar.gz -C /tmp
-(cd /tmp/yasm-1.2.0; ./configure; make; make install)
+

@@ -2,7 +2,7 @@
 
 
 # install python-devel
-yum install python-devel
+yum install python-devel -y
 
 ### install tools
 # install setuptools(easy_install)

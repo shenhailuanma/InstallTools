@@ -1,7 +1,8 @@
 InstallTools
 ============
 
-The installation script tool
+The installation script tool. 
+
 system: centos6.2 x64
 
 1. Mysql install

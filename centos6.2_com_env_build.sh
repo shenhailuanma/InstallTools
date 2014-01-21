@@ -12,7 +12,7 @@ if [ $? != '0' -o `uname -m` != 'x86_64' ]; then
 fi
 
 # tools
-yum -y install wget openssh-clients man vim-enhanced subversion
+yum -y install wget openssh-clients man vim-enhanced subversion git
 
 
 # compile and build tools

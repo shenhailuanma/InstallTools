@@ -6,9 +6,9 @@
 
 
 # install bases
-yum install libxml2
-yum install libxslt
-yum install libxslt-devle
+yum install libxml2 -y
+yum install libxslt -y
+yum install libxslt-devle -y
 
 # download scrapy 0.18
 wget https://codeload.github.com/scrapy/scrapy/zip/0.18

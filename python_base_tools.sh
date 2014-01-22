@@ -8,6 +8,7 @@ yum install python-devel -y
 # install setuptools(easy_install)
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 python ez_setup.py 
+rm -rf ez_setup.py
 
 # install pip
 easy_install pip

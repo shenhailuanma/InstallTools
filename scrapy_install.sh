@@ -28,6 +28,8 @@ yum install libxslt -y
 yum install libxml2-devel -y
 yum install libxslt-devel -y
 
+# install Pillow for scrapy image pipeline
+pip install Pillow
 
 # install scrapy 
 pip install scrapy

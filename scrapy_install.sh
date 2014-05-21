@@ -1,15 +1,17 @@
 #!/bin/bash
 
 # scrapy 2.x need python 2.7
-wget http://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz
-tar xvf Python-2.7.6.tar.xz
+#wget http://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz
+cp ./tools/Python-2.7.3.tar.bz2 ./
+tar xvf Python-2.7.3.tar.bz2
 pushd Python-2.7.6
-./configure --prefix=/usr/local/Python-2.7.6
+./configure --prefix=/usr/local/Python-2.7.3
 make
 make install
 popd
-rm -rf Python-2.7.6.tar.xz
-rm -rf Python-2.7.6
+rm -rf Python-2.7.3.tar.bz2
+rm -rf Python-2.7.3
+touch python_ok
 
 # build python 2.7 env for scrapy, named 'scrapy_env'
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
